@@ -11,6 +11,10 @@ Chart Library POC purposes.
 
 Some data were faked.
 
+## Live Demo
+
+There is a [demo](https://middle-earth-charts.vercel.app/) deployed on Vercel
+
 ## Scripts
 
 In the project directory, you can run:
