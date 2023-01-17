@@ -41,6 +41,9 @@ const useLineChart = (
           }
         }
       },
+      legend: {
+        fontFamily: "Raleway"
+      },
       title: {
         text: title,
         align: "left",

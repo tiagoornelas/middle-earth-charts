@@ -4,7 +4,7 @@ import { series } from "./mock";
 
 const HobbitsNetWorthChart = () => {
   const { ChartComponent } = useRangeWithForecast(
-    "💰 Net worth by hobbit with forecast", series, 2, "500px"
+    "💰 Net worth range by hobbit age", series, 2, "500px"
   );
 
   return <ChartComponent/>;

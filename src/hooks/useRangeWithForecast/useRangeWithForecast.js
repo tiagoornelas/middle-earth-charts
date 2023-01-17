@@ -10,6 +10,7 @@ const useRangeWithForecast = (
       chart: {
         type: "rangeArea"
       },
+      colors: ["#4AE7A7", "#FBBC48", "#4AE7A7", "#FBBC48"],
       dataLabels: {
         enabled: false
       },
@@ -25,7 +26,8 @@ const useRangeWithForecast = (
       },
       legend: {
         show: true,
-        customLegendItems: ["Bilbo Baggins", "Frodo Baggins"]
+        customLegendItems: ["Bilbo Baggins", "Frodo Baggins"],
+        fontFamily: "Raleway"
       },
       markers: {
         hover: {
